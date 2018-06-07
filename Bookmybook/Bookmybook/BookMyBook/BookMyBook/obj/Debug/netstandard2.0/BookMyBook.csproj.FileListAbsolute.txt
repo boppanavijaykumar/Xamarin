@@ -1,0 +1,9 @@
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\bin\Debug\netstandard2.0\BookMyBook.deps.json
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\bin\Debug\netstandard2.0\BookMyBook.dll
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\bin\Debug\netstandard2.0\BookMyBook.pdb
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\obj\Debug\netstandard2.0\BookMyBook.csproj.CoreCompileInputs.cache
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\obj\Debug\netstandard2.0\BookMyBook.AssemblyInfoInputs.cache
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\obj\Debug\netstandard2.0\BookMyBook.AssemblyInfo.cs
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\obj\Debug\netstandard2.0\BookMyBook.dll
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\obj\Debug\netstandard2.0\BookMyBook.pdb
+D:\Xamarin\Bookmybook\Bookmybook\BookMyBook\BookMyBook\obj\Debug\netstandard2.0\BookMyBook.csprojAssemblyReference.cache

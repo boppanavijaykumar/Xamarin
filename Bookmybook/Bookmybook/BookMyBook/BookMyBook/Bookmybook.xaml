@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BookMyBook.Bookmybook">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout  Spacing="7" Padding="0,20"  >
+                <Image x:Name="BookImage" HeightRequest="200"/>
+                <Label x:Name="BookName" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Navy"/>
+                <Label x:Name="BookAuthor" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Navy"/>
+                <Label x:Name="BookPrice" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Navy"/>
+                <Label x:Name="Commentsonbook" HorizontalTextAlignment="Center" FontAttributes="Bold" TextColor="Navy"/>
+                <Button HorizontalOptions="Center" Text="BUY NOW" Clicked="Button_Clicked"/>
+                <Label x:Name="BookDescription" HorizontalTextAlignment="Center"  TextColor="Gray" Margin="25,0" LineBreakMode="WordWrap"/>
+            </StackLayout>            
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

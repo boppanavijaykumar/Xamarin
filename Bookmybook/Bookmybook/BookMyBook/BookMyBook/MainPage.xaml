@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BookMyBook"
+             x:Class="BookMyBook.MainPage">
+    <ListView x:Name="BookList" Margin="0,17,0,0"  HasUnevenRows="True" ItemSelected="BookList_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+                <Image Grid.Column="0" Source="{Binding BookImage}" HeightRequest="180"></Image>
+                <StackLayout Grid.Column="1" Spacing="5" Padding="0,20">
+                    <Label Text="{Binding BookName}" FontAttributes="Bold" FontSize="Medium"></Label>
+                            <Label Text="{Binding BookAuthor}" FontAttributes="Bold" FontSize="Medium"></Label>
+                            <Label Text="{Binding BookPrice}" FontAttributes="Bold" FontSize="Medium"></Label>
+                            <Label Text="{Binding Commentsonbook}" FontAttributes="Bold" FontSize="Medium"></Label>
+                        </StackLayout>
+            </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
